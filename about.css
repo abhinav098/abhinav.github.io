@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Gadget, sans-serif;
+  width: 100wh;
+  height: 90vh;
+  padding: 2em;
+  color: #0f0e0f;
+  background-color: beige;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 4em;
+  color: rgb(2, 2, 2);
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.about {
+  padding: 2em;
+  font-size: 11px;
+  text-align: left;
+}
+
+span {
+  display: flex;
+  display: block;
+  font-size: 1.5em;
+  text-align: left;
+}
+span.main-explanation::before {
+  content: "★";
+}
+span.skills {
+  font-size: 1.3em;
+  padding-top: 10px;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+a:active {
+  color: #000000;
+  text-decoration: underline;
+}

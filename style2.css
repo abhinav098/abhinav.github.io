@@ -3,6 +3,7 @@ body {
   width: 100wh;
   height: 90vh;
   color: #0f0e0f;
+  padding: 2em;
   background-color: beige;
 }
 ::-webkit-scrollbar {
