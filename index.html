@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Abhinav Garg</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+  </head>
+
+  <body>
+    <h1>Abhinav Garg</h1>
+
+    <div id="typewriter"></div>
+
+    <script>
+      var str =
+          "<h2>Computer Science Masters Student at Stevens Institute of Technology'22</h2>",
+        i = 0,
+        isTag,
+        text;
+
+      (function type() {
+        text = str.slice(0, ++i);
+        if (text === str) return;
+
+        document.getElementById("typewriter").innerHTML = text;
+
+        var char = text.slice(-1);
+        if (char === "<") isTag = true;
+        if (char === ">") isTag = false;
+
+        if (isTag) return type();
+        setTimeout(type, 70);
+      })();
+    </script>
+
+    <div class="row">
+      <a href="https://medium.com/@abhinavgarg1218" target="_blank"
+        ><img src="img/medium.png" alt="o" class="social" id="medium"
+      /></a>
+      <a href="http://instagram.com/__abhinavgarg" target="_blank"
+        ><img src="img/igicon.png" alt="○" class="social" id="instagram"
+      /></a>
+      <a href="https://www.linkedin.com/in/abhinavgarg098" target="_blank"
+        ><img src="img/liicon.png" alt="○" class="social" id="linkedin"
+      /></a>
+      <a href="https://github.com/abhinav098" target="_blank"
+        ><img src="img/githubicon.png" alt="○" class="social" id="github"
+      /></a>
+      <a href="mailto:agarg10@stevens.edu" target="_blank"
+        ><img src="img/emailicon.png" alt="○" class="social" id="email"
+      /></a>
+      <a href="https://www.facebook.com/abhinavcool016" target="_blank"
+        ><img src="img/fbicon.png" alt="○" class="social" id="facebook"
+      /></a>
+      <a href="https://twitter.com/_abhinavgarg" target="_blank"
+        ><img src="img/twittericon.png" alt="o" class="social" id="twitter"
+      /></a>
+    </div>
+
+    <h3><a href="./about.html">About Me</a></h3>
+    <footer>
+      <p>Created by Abhinav Garg</p>
+    </footer>
+  </body>
+</html>
