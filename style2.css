@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Gadget, sans-serif;
   width: 100wh;
-  height: 100vh;
+  height: 90vh;
   color: #f8f8f8;
   background-color: #333;
 }
@@ -26,7 +26,6 @@ body {
 .ml1 .text-wrapper {
   position: relative;
   display: inline-block;
-  /* padding-top: 0.1em; */
   padding-right: 0.05em;
   padding-bottom: 0.15em;
 }
@@ -53,7 +52,7 @@ body {
   font-style: italic;
 }
 span.letter {
-  padding: 13px 0;
+  padding: 14px 0;
 }
 
 .social {
@@ -82,6 +81,8 @@ h1 {
   text-align: center;
   font-size: 6em;
   clear: both;
+  margin-top: 0.7em;
+  margin-bottom: unset;
 }
 
 p {
@@ -114,13 +115,41 @@ div.descr {
   text-align: center;
 }
 
+#facebook:hover{
+  color: #4263a3;
+}
 
-i {
-    color: #f8f8f8;
-    font-size: 2em;
-    text-decoration: none;
-  }
+#linkedin:hover{
+  color: #0073b1;
+}
 
+#instagram:hover{
+  color: #ca1a7b;
+}
+
+#medium:hover{
+  color: rgb(0 0 0);
+}
+
+#github:hover{
+  color: #7f7f7f;
+}
+
+#twitter:hover{
+  color: #00a1f9;
+}
+
+#email:hover {
+  color:  rgb(0 0 0);
+}
+
+
+
+a {
+  color: #f8f8f8;
+  font-size: 2em;
+  text-decoration: none;
+}
 a:link {
   text-decoration: none;
 }
@@ -148,5 +177,10 @@ h5 {
 }
 
 .footer-text {
-  padding-top: 1em;
+  margin-top: 8em;
+}
+
+#aboutLink {
+  text-align: center;
+  font-size: 1em;
 }
