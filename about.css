@@ -2,9 +2,8 @@ body {
   font-family: Arial, Gadget, sans-serif;
   width: 100wh;
   height: 90vh;
-  padding: 2em;
-  color: #0f0e0f;
-  background-color: beige;
+  color: #f8f8f8;
+  background-color: #333;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -13,7 +12,6 @@ body {
 .about-heading {
   text-align: center;
   font-size: 4em;
-  color: rgb(2, 2, 2);
 }
 
 p {
@@ -41,18 +39,14 @@ span.skills {
 }
 
 a:link {
-  color: #000000;
   text-decoration: none;
 }
 a:visited {
-  color: #000000;
   text-decoration: none;
 }
 a:hover {
-  color: #000000;
   text-decoration: underline;
 }
 a:active {
-  color: #000000;
   text-decoration: underline;
 }
