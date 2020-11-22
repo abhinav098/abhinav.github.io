@@ -1,3 +1,6 @@
+* {
+  font-size: 1em;
+}
 body {
   font-family: Arial, Gadget, sans-serif;
   width: 100wh;
@@ -19,16 +22,18 @@ p {
 }
 
 .about {
-  padding: 2em;
+  border: 1px solid #f8f8f8;
+  width: 70%;
+  position: relative;
+  left: 10%;
+  padding: 0em 5em;
   font-size: 11px;
-  text-align: left;
 }
 
 span {
   display: flex;
   display: block;
   font-size: 1.5em;
-  text-align: left;
 }
 span.main-explanation::before {
   content: "★";
@@ -53,4 +58,31 @@ a:active {
 
 a {
   color: #f8f8f8;
+}
+
+dt, dd {
+  margin-bottom: 2em;
+}
+
+dt {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.3em;
+}
+.school_name {
+  font-weight: bold;
+}
+
+.date{
+  font-size: 1em;
+  display: inline;
+  position: absolute;
+  right: 10%;
+}
+
+.back_button {
+  padding-bottom: 2em;
+  text-align: center;
 }
