@@ -1,18 +1,14 @@
-.home {
+#home {
   padding-top: 8em;
 }
 
-.description {
-  text-align: center;
+#intro {
   padding-top: 1em;
+  padding-bottom: 5em;
 }
 
-.description p {
+#intro p {
   font-size: 1.5em;
-}
-
-.image {
-  text-align: center;
 }
 
 img.profile {
@@ -32,9 +28,7 @@ img.profile {
   font-weight: bold;
 }
 
-#about {
-  padding: 10em 0;
-}
+#about,
 #experience,
 #portfolio,
 #skills {
