@@ -4,7 +4,7 @@
 
 #intro {
   padding-top: 1em;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 }
 
 #intro p {
@@ -15,11 +15,6 @@ img.profile {
   border-radius: 50%;
   width: 30%;
 }
-
-.about {
-  padding: 0 9.8em 1em 0;
-}
-
 .about-description {
   margin-top: 1em;
 }
@@ -68,5 +63,28 @@ ul {
 ul.skills-list li {
   color: #333;
   text-align: unset;
+  font-size: 1.5em;
+}
+
+#experience ul li {
+  color: #333;
+}
+
+#experience a {
+  color: rgb(78, 175, 240);
+}
+
+.kiprosh,
+.maropost,
+.mindnudge {
+  margin-top: 5em;
+}
+
+.overall {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+.company-description {
+  margin-top: 2em;
   font-size: 1.5em;
 }
