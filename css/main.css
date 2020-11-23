@@ -1,0 +1,78 @@
+.home {
+  padding-top: 8em;
+}
+
+.description {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.description p {
+  font-size: 1.5em;
+}
+
+.image {
+  text-align: center;
+}
+
+img.profile {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.about {
+  padding: 0 9.8em 1em 0;
+}
+
+.about-description {
+  margin-top: 1em;
+}
+
+.position {
+  font-weight: bold;
+}
+
+#about {
+  padding: 10em 0;
+}
+#experience,
+#portfolio,
+#skills {
+  padding: 5em 0;
+}
+
+#about p {
+  font-size: 1.5em;
+}
+
+.experience-header {
+  text-transform: uppercase;
+}
+
+.header-underline {
+  margin: 15px auto 30px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 3px;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.about {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.skills-list li {
+  color: #333;
+  text-align: unset;
+  font-size: 1.5em;
+}
