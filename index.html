@@ -6,89 +6,197 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta
       property="og:image"
-      content="https://avatars3.githubusercontent.com/u/26408955?s=400&amp;u=633cbe73882457947dd98b24f1ce3045328836e8&amp;v=4"
+      content="https://res.cloudinary.com/abhinav098/image/upload/v1606094319/IMG_3313_lscetq.jpg"
     />
+    <script src="./script.js"></script>
     <script
       src="https://kit.fontawesome.com/c4fd5e1563.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
   </head>
 
   <body>
-    <h1>Abhinav Garg</h1>
-    <div>
-      <h2 class="ml1">
-        <span class="text-wrapper">
-          <span class="line line1"></span>
-          <span class="letters"
-            >Computer Science Graduate Student at Stevens Institute of
-            Technology'22</span
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-default navbar-expand-lg fixed-top navbar-dark">
+        <div class="header page-scroll">
+          <a class="navbar-brand" href="#page-top">Abhinav Garg</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-          <span class="line line2"></span>
-        </span>
-      </h2>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-      <script>
-        var textWrapper = document.querySelector(".ml1 .letters");
-        textWrapper.innerHTML = textWrapper.textContent.replace(
-          /\S/g,
-          "<span class='letter'>$&</span>"
-        );
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+          <ul class="nav navbar-nav navbar-right nav-links">
+            <li class="hidden active">
+              <a href="#page-top"></a>
+            </li>
+            <!-- <li class="page-scroll">
+              <a href="#experience">Work Experience</a>
+            </li> -->
+            <!-- <li class="page-scroll">
+              <a href="#skills">Skills</a>
+            </li> -->
+            <li class="page-scroll">
+              <a href="#about">About Me</a>
+              <!-- </li>
+            <li class="page-scroll">
+              <a href="#portfolio">Portfolio</a>
+            </li> -->
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        anime
-          .timeline({ loop: false })
-          .add({
-            targets: ".ml1 .letter",
-            scale: [0.3, 1],
-            opacity: [0, 1],
-            translateZ: 0,
-            easing: "easeOutExpo",
-            duration: 600,
-            delay: (el, i) => 30 * (i + 1),
-          })
-          .add({
-            targets: ".ml1 .line",
-            scaleX: [0, 1],
-            opacity: [0.5, 1],
-            easing: "easeOutExpo",
-            duration: 700,
-            offset: "-=875",
-            delay: (el, i, l) => 30 * (l - i),
-          });
-      </script>
-    </div>
-    <div class="row">
-      <a href="mailto:agarg10@stevens.edu" target="_blank"
-        ><i id="email" class="far social fa-envelope-open"></i
-      ></a>
-      <a href="https://www.linkedin.com/in/abhinavgarg098" target="_blank"
-        ><i id="linkedin" class="fab social fa-linkedin"></i
-      ></a>
-      <a href="https://github.com/abhinav098" target="_blank"
-        ><i id="github" class="fab social fa-github"></i
-      ></a>
-      <a href="https://medium.com/@abhinavgarg1218" target="_blank"
-        ><i id="medium" class="fab social fa-medium-m"></i
-      ></a>
-      <a href="http://instagram.com/__abhinavgarg" target="_blank"
-        ><i id="instagram" class="fab social fa-instagram"></i
-      ></a>
-      <a href="https://twitter.com/_abhinavgarg" target="_blank"
-        ><i id="twitter" class="fab social fa-twitter-square"></i
-      ></a>
-      <a href="https://www.facebook.com/abhinavcool016" target="_blank"
-        ><i id="facebook" class="fab social fa-facebook-square"></i
-      ></a>
-    </div>
-    <div class="row">
-      <h3>
-        Actively seeking Software Engineer Intern positions for summer 2021 |
-        Passionate about Ruby on Rails | Avid about JS
-      </h3>
-    </div>
-    <div class="footer-text">
-      <h3>Created by Abhinav Garg</h3>
-      <h3><a id="aboutLink" href="./about.html">About Me</a></h3>
-    </div>
+    <!-- main content -->
+    <main>
+      <div class="row image">
+        <div id="page-top" class="container-fluid container-sm home">
+          <img
+            src="https://res.cloudinary.com/abhinav098/image/upload/v1606094319/IMG_3313_lscetq.jpg"
+            alt="abhinav"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="container-fluid container-sm description">
+          <h1 class="experience-header">Abhinav Garg</h1>
+          <hr class="header-underline" />
+          <p>
+            Computer Science Graduate Student at Stevens Institute of
+            Technology'22.
+          </p>
+          <p>
+            Actively looking for
+            <span class="position"
+              >Software Engineering Summer Internships 2021</span
+            >
+            positions.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center" id="about">
+          <h1 class="experience-header">About Me</h1>
+          <hr class="header-underline" />
+          <p>
+            I'm an Innovative full-stack software developer and a self-starter
+            who loves to innovate. Passionate about building software solutions
+            that make the world a better place. Offering more than 3 years of
+            hands-on experience in full-stack SDLC. Ability to learn and adopt
+            relevant new technologies, tools, methods, and processes to leverage
+            for solving a problem.
+          </p>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class="container text-center" id="experience">
+          <h1 class="experience-header">Work Experience</h1>
+          <hr class="header-underline" />
+          <div class="maropost">Maropost</div>
+          <div class="kiprosh">Kiprosh</div>
+          <div class="mindnudge">MindNudge</div>
+          <div class="eclerx">Eclerx</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center" id="skills">
+          <h1 class="experience-header">Technical Skills</h1>
+          <hr class="header-underline" />
+          <ul class="skill-list">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center" id="portfolio">
+          <h1 class="experience-header">Portfolio</h1>
+          <hr class="header-underline" />
+          <div class="row row-cols-4">
+            {{#each donations}}
+            <a href="/donations/{{_id}}">
+              <div class="col">
+                <img
+                  src="https://www.staples-3p.com/s7/is/image/Staples/sp82712270_sc7?wid=200&hei=250"
+                  alt=""
+                  srcset=""
+                />
+                <br />
+                {{name}} ({{quantity}})
+              </div>
+            </a>
+            {{/each}}
+          </div>
+        </div>
+      </div> -->
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="row" id="contact_me">
+        <div class="col-sm-6 offset-sm-3 social-links">
+          <a href="mailto:agarg10@stevens.edu" target="_blank"
+            ><i id="email" class="far social fa-envelope-open"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/abhinavgarg098" target="_blank"
+            ><i id="linkedin" class="fab social fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/abhinav098" target="_blank"
+            ><i id="github" class="fab social fa-github"></i
+          ></a>
+          <a href="https://medium.com/@abhinavgarg1218" target="_blank"
+            ><i id="medium" class="fab social fa-medium-m"></i
+          ></a>
+          <a href="http://instagram.com/__abhinavgarg" target="_blank"
+            ><i id="instagram" class="fab social fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/_abhinavgarg" target="_blank"
+            ><i id="twitter" class="fab social fa-twitter-square"></i
+          ></a>
+          <a href="https://www.facebook.com/abhinavcool016" target="_blank"
+            ><i id="facebook" class="fab social fa-facebook-square"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
