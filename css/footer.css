@@ -38,7 +38,7 @@ ul.links {
 
 .social-links a {
   color: #f8f8f8;
-  font-size: 2em;
+  font-size: 2.3em;
   text-decoration: none;
 }
 
@@ -49,6 +49,10 @@ ul.links {
 
 #facebook:hover {
   color: #4263a3;
+}
+
+#stackoverflow:hover {
+  color: #ff7900;
 }
 
 #linkedin:hover {
