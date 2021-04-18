@@ -88,3 +88,16 @@ ul.skills-list li {
   margin-top: 2em;
   font-size: 1.5em;
 }
+
+.portfolio-app {
+  background-color: currentColor;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 2em;
+  border-radius: 10px;
+  border: 1px solid currentColor;
+}
+
+.portfolio-app .portfolio-content {
+  color: #fff !important;
+}
